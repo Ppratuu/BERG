@@ -1,0 +1,746 @@
+header{
+    background-color: #32b67a;
+    color: #ffffff;
+    font-size: 18px;
+}
+.heading, .input-group{
+    margin-top: 10px;
+}
+.heading img{
+    width: 130px;
+}
+.heading h2{
+    color: #2b3e55;
+}
+.search-box {
+    margin-top: 45px;
+    position: relative;
+    border-radius: 20px;
+}
+.search-box input[type=text]{
+    font-size: 17px;
+    font-weight: 300;
+    color: #000;
+}
+.search-box i{
+    position: absolute;
+    right: 14px;
+    top: 12px;
+}
+.item img{
+    background: rgba(0, 0, 0, 0.4);
+}
+.heading h4{
+    color: #6d6966;
+}
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 999;
+    background: #32b67a;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.menu .nav li a{
+    color: #fff;
+}
+.sub-menu{
+    left: 100%;
+    top: 0;
+}
+.navbar-toggle{
+    border: 2px solid #fff;
+}
+.dropdown-menu{
+    background: #32b67a;
+}
+.menu .nav li a:hover,.menu .nav li a:focus{
+    background-color: #258f65;
+    color: #fff;
+}
+.icon-bar{
+    background: #fff;
+}
+.slidehead{
+    position: absolute;
+    bottom: 250px;
+    color: #ffffff;
+    border-style: solid;
+    margin-left: 80px; 
+    width: 40%; 
+}
+
+.welcome p{
+    font-size: 17px;
+}
+.welcome{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.adventure img, .adventures img{
+    height: 350px;
+}
+.adventure .content, .adventures .content{
+    position: absolute;
+    bottom: 120px;
+    color: #ffffff;
+    margin-left: 0px;
+}
+.image-bar .images{
+    position: absolute;
+    width: 20%;
+    margin-top: -100px;
+    display: flex;
+}
+
+.images img{
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.content .yoga{
+    position: absolute;
+    height: 50px;
+    color: #ffffff;
+    margin-left: -250px;
+    font-size: 28px;
+    width: 100%;
+    margin-top: 170px;
+}
+.packages{
+    margin-top: 230px;
+    background-color: #f6f6f6;
+}
+.price-container{
+    position: absolute;
+    background: #32b67a;
+    top: -20px;
+    left: -5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-top-left-radius: 5px;
+}
+.price-container-treks{
+    position: absolute;
+    background: #32b67a;
+    top: 175px;
+    left: -5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-top-left-radius: 5px;
+}
+.price-container-red{
+    position: absolute;
+    background: #f00;
+    top: 15px;
+    right: -5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-top-right-radius: 5px;
+}
+.trek img{
+    border-radius: 5px;
+    vertical-align: middle;
+}
+.name{
+    margin-top: 10px;
+}
+.packages i, .info i, .treks i{
+    color: #32b67a;
+}
+.trek{
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #ffffff;
+    width: 20%;
+    height: 290px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.packages button, .testimonial button, .adventure button, .adventures button{
+    background-color: #32b67a;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.information .content {
+    position: absolute;
+    bottom: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 100px;
+}
+.info p{
+    font-size: 16px;
+    margin-left: 30px;
+}
+.trips{
+    background-color: #f6f6f6;
+    height: 500px;
+    margin-top: 20px;
+}
+.packages img{
+    border-radius: 10px;
+}
+.treks{
+    box-shadow: 2px #6d6966;
+    background-color: #ffffff;
+    width: 28%;
+    height: 350px;
+    margin-right: 30px;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.testi{
+    box-shadow: 2px #6d6966;
+    background-color: #f6f6f6;
+    width: 28%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.testi h5{
+    line-height: 30px;
+}
+.testi img{
+    border-radius: 170px;
+    margin-left: 75px;
+}
+.mains{
+    margin-left: 100px;
+}
+.association{
+    background-color: #f6f6f6;
+}
+.association .ass{
+    display: flex;
+    margin-top: 100px;
+}
+.ass img{
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+/***********FOOTER***************/
+.up{
+    background-color: #258f65;
+    color: #ffffff;
+}
+.destination ul li {
+    list-style: none;
+}
+.destination ul li a{
+    color: #ffffff;
+    line-height: 30px;
+    margin-left: -40px;
+}
+.down{
+    background-color: #1d7350;
+}
+.contents p{
+    color: #ffffff;
+    margin-top: 10px;
+}
+/***********************************for trek**********************************/
+.drukpath{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 10px;  
+}
+.days{
+    width: 6%;
+    height: 60px;
+    font-weight: 600;
+    background-color: #fff;
+    text-transform: none;
+    font-size: 20px;
+    color: #32b67a;
+    border-radius: 50%;
+    border: 2px solid #32b67a;
+    text-align: center;
+    padding: 8px;
+}
+.btnn{
+    background-color: #17a2b8;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-top: 10px;
+    width: 30%;
+    height: 50px;
+}
+.smallbox{
+    line-height: 50px; 
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dollar{
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 15px;
+}
+.check{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    background-color: #28a745;
+}
+.smallbox h5{
+    line-height: 30px;
+}
+.smallbox h5 .link{
+    color: #197bff;
+}
+.moretrips{
+    color: #888a8c;
+}
+.notinbox{
+    font-size: 16px;
+}
+.options{
+    background-color: #ffffff;
+    position: sticky;
+    top:0;
+    z-index: 999;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.options ul li{
+    display: flex;
+}
+.options ul li a{
+    color: #343a40;
+    margin-left: 50px;
+}
+.my-5 i{
+    color: #28a745;
+    font-size: 16px;
+}
+.my-5 p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.excludes i{
+    color: #f00;
+}
+.star i{
+    font-size: 25px;
+}
+.notrate{
+    border-radius: 5px;
+    background-color: #6c757d;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 12px;
+    width: 12%;
+    margin-top: 5px;
+}
+.submit{
+    background-color: #6c757d;
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;   
+    margin-bottom: 20px;
+}
+.quiry{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+.enquiry{
+    background-color: #f6f6f6;
+}
+/**************************************BLOG*******************************/
+
+.blog{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.blogs{
+    width: 23%;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.blogs h4{
+    color: #000;
+}
+.global{
+    line-height: 30px;
+    font-size: 15px;
+}
+/******************travel stories*****************/
+.photo img{
+    border-radius: 150px;
+    width: 80%;
+}
+.p, .para{
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.tophead{
+    margin-top: 20px;
+}
+/***************************NEPAL*******************/
+
+.nepaltreks{
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+    width: 30%;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.nepaltreks img{
+    height: 200px;
+    width: 100%;
+}
+.nepaltreks i{
+    color: #28a745;
+}
+.contact{
+    color: #ffffff;
+    background-color: #32b67a;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: -110px;
+}
+.touch{
+    margin-top: -110px;
+    background-color: #ffffff;
+}
+/************************MEDIA QUERY*******************/
+@media(max-width: 767px){
+    .slidehead{
+        bottom: 2px;
+        margin-left: 2px; 
+        width: auto; 
+        margin-right: 2px;
+        font-size: 25px;
+    }
+    .welcome h1{
+        margin-top: -10px;
+    }
+    
+    .adventure img, .adventures img{
+        height: 150px;
+    }
+    .image-bar .images{
+        position: absolute;
+        width: 30%;
+        margin-top: -50px;
+        display: flex;
+    }
+    
+    .search-box{
+        bottom: 10px;
+    }
+    .images img{
+        justify-content: space-between;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+    .content .yoga{
+        position: absolute;
+        height: 20px;
+        color: #ffffff;
+        margin-left: -80px;
+        font-size: 6px;
+        width: 100%;
+        margin-top: 60px; 
+    }
+    .adventure .content{
+        bottom: 50px;
+        font-size: 6px;
+    }
+    .packages{
+        margin-top: 50px;
+    }
+    .trek{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 90%;
+        height: auto;
+    }
+    .btn{
+        margin-left: 60px;  
+    }
+    .information .content {
+        bottom: 5px;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .treks{
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .treks h3{
+        margin-top: 45px;
+    }
+    .treks h6{
+        margin-bottom: 10px;
+    }
+    .smallbox{
+        margin-left: 5px;
+    }
+    .testimonial{
+        margin-top: 650px;
+    }
+    .options{
+        width: 100%;
+    }
+
+    .options ul li{
+        display: inline-flex;
+    }
+    .options ul li a{
+        margin-left: -8px;
+        font-size: 8px;
+    }
+
+    .testi{
+        width: 90%;
+    }
+    .adventures .content{
+        bottom: 0px;
+        font-size: 10px;
+    }
+    .adventure .btn, .adventures .btn{
+        font-size: 12px;
+    }
+    .adventure .topic, .adventures .topic{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .association .ass{
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .ass img{
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        width: 20%;
+    }
+    .nepaltreks, .blogs{
+        width: 90%;
+        height: auto;
+    }
+    .blogs{
+        margin-top: 10px;
+    }
+    .photo img{
+        margin-top: 10px;
+    }
+    .days{
+        width: 10%;
+        height: 30px;
+        font-weight: 400;
+        font-size: 8px;
+        border-radius: 50%;
+        padding: 4px;
+    }
+    .notrate{
+        width: 25%;
+    }
+    .trips{
+        margin-bottom: 680px;
+    }
+    
+}
+@media(max-width: 1200px) and (min-width: 768px){
+    .slidehead{
+        bottom: 80px;
+        margin-left: 2px; 
+        width: auto; 
+        margin-right: 2px;
+        font-size: 25px;
+    }    
+    .image-bar .images{
+        position: absolute;
+        width: 25%;
+        margin-top: -80px;
+        display: flex;
+    }
+    .welcome{
+        margin-top: -5px;
+    }  
+    .welcome .video{
+        margin-top: 35px;
+    } 
+    .images img{
+        justify-content: space-between;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .adventure .content p{
+        margin-left: 300px;
+    }
+    .content .yoga{
+        position: absolute;
+        color: #ffffff;
+        margin-left: -170px;
+        font-size: 15px;
+        width: 100%;
+        margin-top: 150px; 
+    }
+    .adventure .content{
+        bottom: 120px;
+        font-size: 16px;
+        margin-left: -350px;
+    }
+    .packages{
+        margin-top: 130px;
+    }
+    .trek{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 30%;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buttom .btn{
+        margin-left: 200px;
+        width: auto;  
+    }
+    .check{
+        font-size: 20px;
+    }
+    .btnn{
+        width: auto;
+    }
+    .tripbtn{
+        width: auto;
+    }
+    .information .content {
+        bottom: 5px;
+        font-size: 8px;
+        margin-left: 10px;
+    }
+    .trips h1{
+        width: 40%;
+        margin-left: 300px;
+    }
+    .treks{
+        width: 40%;
+        height: auto;
+        margin-top: 10px;
+        font-size: 50px;
+    }
+    .price-container-treks{
+        margin-top:-25px;
+    }
+    .treks h3{
+        margin-top: 40px;
+    }
+    .testimonial{
+        margin-top: -680px;
+    }
+    .testimonial h1{
+        margin-left: 210px;
+    }
+    .testi{
+        width: 40%;
+        margin-top: 20px;
+        bottom: 10px;
+    }
+    .adventures .content{
+        bottom: 30px;
+        font-size: 10px;
+    }
+    .adventures p{
+        margin-left: 120px;
+    }
+    .adventures .btn{
+        font-size: 12px;
+        width: auto;
+        margin-left: 300px ;
+    }
+    .adventure .topic{
+        font-size: 30px;
+        margin-left: 550px;
+    }
+    .adventures .topic{
+        font-size: 30px;
+        margin-left: 240px;
+    }
+    .association h1{
+        font-size: 30px;
+        width: 60%;
+    }
+    .association .ass{
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .ass img{
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 18%;
+    }
+    .nepaltreks{
+        width: 45%;
+        height: auto;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .nepaltreks img{
+        height: auto;
+        width: auto;
+    }
+    .blogs{
+        width: 30%;
+        height: 230px;
+        margin-bottom: 15px;
+    }
+    .tophead{
+        width: 60%;
+    }
+    .photo img{
+        margin-top: 10px;
+    }
+    .days{
+        width: 8%;
+        height: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .star{
+        width: 40%;
+    }
+    .notrate{
+        width: 20%;
+    }
+    .trips{
+        margin-bottom: 680px;
+        height: 850px;
+    }
+    .quiry{
+        width: 30%;
+    }
+    
+    }
+
